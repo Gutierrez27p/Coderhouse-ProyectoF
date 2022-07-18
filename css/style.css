@@ -1,5 +1,6 @@
 * {
     padding: 0%;
+    flex-wrap: wrap;
 }
 
 html {
@@ -140,9 +141,18 @@ aside .pExtra{
     display: flex;
     flex-direction: row-reverse;
     padding-right: 85px;
-
 }
 
+.mb-4{
+    padding: 0 4rem 0 4rem;
+}
+
+.btn{
+    color: white;
+    background-color: #119785;
+    border-color:#119785;
+    align-items: center;
+}
 section .parrafo{
     display: flex;
     flex-wrap: wrap;
@@ -173,6 +183,10 @@ section .parrafo{
 .fDerecha{
     display: flex;
     justify-content: space-between;
+}
+
+.fDerecha a{
+    color: white;
 }
 
 .redes{
