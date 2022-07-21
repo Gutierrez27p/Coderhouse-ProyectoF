@@ -10,6 +10,7 @@ html {
 body {
     margin: 0;
     background-image: url(/assets/img/background.jpg);       /* <-------        fondo de la web */
+    background-size: 100%;
 }
 
 /*navbar*/
@@ -167,23 +168,34 @@ div .media-body{
     padding-bottom: 1rem!important;
 }
 
+.disenosLogotipos,
+.disenosPp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div .card{
+    margin: 1rem!important;
+}
+
+#poster-portada,
+#persona,
+#banners,
+#subrealismo,
+#wallpapers{
+    justify-content: space-evenly;
+}
+
+.card img{
+    height: 80%!important;
+}
+
 /*carroussel*/
 
 .carousel-item img{
-    width: 50%!important;
+    width: 33%!important;
     justify-items: center!important;
-}
-
-.carousel-item img .logo-tipo{
-    width: 40%!important;
-}
-
-.carousel-item img .portada{
-    width: 40%!important;
-}
-
-.carousel-item img .twitch{
-    width: 30%!important;
 }
 
 .boton-galeria{
