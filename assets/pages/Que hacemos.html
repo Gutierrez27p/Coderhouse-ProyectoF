@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
         </style>
@@ -13,28 +15,39 @@
 </head>
 <body>
     <header>
-            <a id="inicio"></a>
-            <div class="logotipo">
-                <img src ="../img/Illustrarg.png" alt="illustrarg" width="120" class="logoPage"/>
-                <h2>Illustrarg</h2>
-            </div>
-        <nav>
-            <ul class="menu">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="../pages/Quienes somos.html">Quienes somos</a></li>
-            <li><a href="../pages/Que hacemos.html">Que hacemos</a></li>
-            <li><a href="../pages/Galeria.html">Diseños</a></li>
-            <li><a target="_blank" href="../pages/formulario.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <br><br>
-
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="nav-item nav-link" href="#"><img src="/assets/img/Illustrarg.png" width="80"></a>
+                    <div class="d-flex">
+                        <button class="navbar-toggler justify-content-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="navbar-nav ms-auto barraIcons">
+                            <a target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav w-100 justify-content-evenly">
+                        <a class="nav-item nav-link active" href="/index2.html">Inicio</a>
+                        <a class="nav-item nav-link" href="../pages/Que hacemos.html">Que hacemos</a>
+                        <a class="nav-item nav-link" href="../pages/Quienes somos.html">Quienes somos</a>
+                        <a target="_blank" class="nav-item nav-link" href="../pages/Galeria.html">Galeria</a>
+                        <a target="_blank" class="nav-item nav-link" href="../pages/formulario.html">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-    <section class="titulo">
-
+    <br><br>
+    <section class="titulo text-center">
         <h1 class="subtituloQs">¿Que hacemos?</h1>
         <br><br>
-
         <h2 class="tituloTexto">Lorem ipsum dolor</h2>
             <div class="textoQs">
                 <p class="textoSuperior">
@@ -55,17 +68,27 @@
                 libero id.
                 </p>
             </div>
+            <br><br><br>
             <div class="imgQh">
-                <a target="_blank" href="../pages/hamburgueserialogo.png"><img src="../img/hamburgueserialogo.png" alt="hamburgueserialogo" width="140" class="hamburguesaLogo"></a>
-                <a target="_blank" href="../pages/Simbanails.jpg"><img src="../img/Simbanails.jpg" alt="Simbanails" width="400" class="simba"></a>
-                <a target="_blank" href="../pages/pinguin.png"><img src="../img/pinguin.png" alt="pinguin" width="140"></a>
+                <div>
+                    <a target="_blank" href="../img/hamburgueserialogo.jpg"><img src="../img/hamburgueserialogo.jpg" alt="hamburgueserialogo" width="148" class="hamburguesaLogo"></a>
+                    <p>Estilo Logotipo</p>
+                </div>
+                <div>
+                    <a target="_blank" href="../img/Simbanails.jpg"><img src="../img/Simbanails.jpg" alt="Simbanails" width="400" class="simba"></a>
+                    <p>Estilo banner</p>
+                </div>
+                <div>
+                    <a target="_blank" href="../img/pinguin.png"><img src="../img/pinguin.png" alt="pinguin" width="140"></a>
+                    <p>Estilo imagen PNG (sin fondo)</p>
+                </div>
             </div>
 
     </section>
     <br><br>
-    <section>
+    <section class="text-center">
         <h2 class="tituloQh">Lorem ipsum dolor</h2>
-        <p class="parrafoQh">
+        <p class="textoSuperior">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Nisl vel pretium lectus quam id leo in vitae turpis. Facilisis magna etiam tempor orci eu lobortis elementum nibh. 
         Ut tristique et egestas quis. Aliquet sagittis id consectetur purus. Purus gravida quis blandit turpis. Nullam eget felis 
@@ -82,65 +105,115 @@
         maecenas accumsan. Nulla at volutpat diam ut venenatis. Porta non pulvinar neque laoreet suspendisse interdum consectetur 
         libero id.
         </p>
-        <br><br>
+        <br>
     </section>
-
-    <section class="bloqueInteres">
+    <section class="bloqueInteres text-center">
         <h2 class="interesQh">Lorem ipsun dolor</h2>
+        <br>
         <fieldset class="backgroundFieldset">
             <legend>
                 <h3>Datos para un diseño (marcar max. 5)</h3>
             </legend>
-            <br>
-                <label for="Propio">Propio</label>
-                <input type="checkbox" name="Propio" id="Propio">
-                <label for="Trabajo">Trabajo</label>
-                <input type="checkbox" name="Trabajo" id="Trabajo">
-                <label for="Redes-sociales">Redes Sociales</label>
-                <input type="checkbox" name="redes-sociales" id="Redes-sociales">
-                <label for="Curriculum">Curriculum</label>
-                <input type="checkbox" name="Curriculum" id="Curriculum">
-                <label for="ocio">ocio</label>
-                <input type="checkbox" name="ocio" id="ocio">
-                <label for="Femenino">Femenino</label>
-                <input type="checkbox" name="Femenino" id="Femenino">
-                <label for="Masculino">Masculino</label>
-                <input type="checkbox" name="Masculino" id="Masculino">
-                <label for="Paisajes">Paisajes</label>
-                <input type="checkbox" name="Paisajes" id="Paisajes">
-                <label for="Anime">Anime</label>
-                <input type="checkbox" name="Anime" id="Anime">
-                <label for="Gamer">Gamer</label>
-                <input type="checkbox" name="Gamer" id="Gamer">
-                <label for="Animales">Animales</label>
-                <input type="checkbox" name="Animales" id="Animales">
-                <label for="Ficcion">Ficcion</label>
-                <input type="checkbox" name="Ficcion" id="Ficcion">
-                <label for="Fantasia">Fantasia</label>
-                <input type="checkbox" name="Fantasia" id="Fantasia">
-                <label for="otros">Otros</label>
-                <input type="checkbox" name="Otros" id="Otros">
-                <button type="button">Enviar</button>
-
+            <br><br>
+            <div class="checkboxform">
+                <div>
+                    <label for="Propio">Propio</label>
+                    <input type="checkbox" name="Propio" id="Propio">
+                    <br>
+                    <label for="Trabajo">Trabajo</label>
+                    <input type="checkbox" name="Trabajo" id="Trabajo">
+                    <br>
+                    <label for="Redes-sociales">Redes Sociales</label>
+                    <input type="checkbox" name="redes-sociales" id="Redes-sociales">
+                    <br>
+                    <label for="Curriculum">Curriculum</label>
+                    <input type="checkbox" name="Curriculum" id="Curriculum">
+                    <br>
+                    <label for="ocio">ocio</label>
+                    <input type="checkbox" name="ocio" id="ocio">
+                    <br>
+                    <label for="Femenino">Femenino</label>
+                    <input type="checkbox" name="Femenino" id="Femenino">
+                    <br>
+                    <label for="Masculino">Masculino</label>
+                    <input type="checkbox" name="Masculino" id="Masculino">
+                    <br>
+                </div>
+                <div>
+                    <label for="Paisajes">Paisajes</label>
+                    <input type="checkbox" name="Paisajes" id="Paisajes">
+                    <br>
+                    <label for="Anime">Anime</label>
+                    <input type="checkbox" name="Anime" id="Anime">
+                    <br>
+                    <label for="Gamer">Gamer</label>
+                    <input type="checkbox" name="Gamer" id="Gamer">
+                    <br>
+                    <label for="Animales">Animales</label>
+                    <input type="checkbox" name="Animales" id="Animales">
+                    <br>
+                    <label for="Ficcion">Ficcion</label>
+                    <input type="checkbox" name="Ficcion" id="Ficcion">
+                    <br>
+                    <label for="Fantasia">Fantasia</label>
+                    <input type="checkbox" name="Fantasia" id="Fantasia">
+                    <br>
+                    <label for="otros">Otros</label>
+                    <input type="checkbox" name="Otros" id="Otros">
+                </div>
+                    <br><br>
+            </div>
+                <div>
+                    <button type="button" class="btn btn-success text-center">Enviar</button>
+                </div>
         </fieldset>
-
     </section>
 
     <br><br><br>
 
     <footer class="footer">
-        <div class="fDerecha">
-            <a href="mailto:illustrarg@gmail.com">illustrarg@gmail.com</a>
-            <div class="redes">
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><img src="../img/wpp.png" alt="wpp" width="35px"></a>
-                <a target="_blank" href="https://www.facebook.com/"><img src="../img/face.png" alt="face" width="35px"></a>
-                <a target="_blank" href="https://www.instagram.com/illustrarg"><img src="../img/insta.png" alt="insta" width="30px"></a>
+        <div class="footer-left col-md-4 col-sm-6">
+            <p class="about">
+                <span>Lorem, ipsum dolor sit</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est sapiente ipsam aut vel repellat necessitatibus provident ab vitae! Aspernatur perferendis maiores odit mollitia minima aut dolor ipsam. Quisquam, perferendis.
+            </p>
+            <br><br>
+            <div class="icons">
+                <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
+                <a target="_blank"href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
             </div>
-            <a href="../index.html">Volver a inicio</a>
         </div>
-        <p>Illustrarg 2020 ©. Todos los derechos reservados.</p>
+        <div class="footer-center col-md-4 col-sm-6">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Villa Urquiza</span>Capital Federal</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p> (+54) 9 11 25114926</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:Illustrarg@gmail.com">Illustrarg@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+            <h2>Illustrarg</h2>
+            <p class="menu">
+            <a href="#inicio"> Inicio</a> |
+            <a href="#card-recreacion">Que hacemos</a> |
+            <a href="#card-coraje">Quienes somos</a> |
+            <a href="#galeria">Galeria</a> |
+            <a href="#contacto">Contacto</a>
+            </p>
+            <br>
+            <br>
+            <p class="name"> Illustrarg&copy;2022</p>
+        </div>
     </footer>
-</body>
-
+    <script src="https://kit.fontawesome.com/6f24dcf161.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

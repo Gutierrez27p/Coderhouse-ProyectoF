@@ -2,18 +2,53 @@
 <html lang="es">
 <head>
     <title>Contacto</title>
-    <link rel="shortcut icon" href="../assets/img/Illustrarg.png">
+    <link rel="shortcut icon" href="/assets/img/Illustrarg.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+        </style>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="nav-item nav-link" href="#"><img src="/assets/img/Illustrarg.png" width="80"></a>
+                    <div class="d-flex">
+                        <button class="navbar-toggler justify-content-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="navbar-nav ms-auto barraIcons">
+                            <a target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav w-100 justify-content-evenly">
+                        <a class="nav-item nav-link active" href="/index2.html">Inicio</a>
+                        <a class="nav-item nav-link" href="../pages/Que hacemos.html">Que hacemos</a>
+                        <a class="nav-item nav-link" href="../pages/Quienes somos.html">Quienes somos</a>
+                        <a class="nav-item nav-link" href="../pages/Galeria.html">Galeria</a>
+                        <a class="nav-item nav-link" href="../pages/formulario.html">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
     <fieldset>
         <a name="Contacto"></a>
-        <section class="mb-4">
+        <section class="mb-12">
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contacto</h2>
             <p class="text-center w-responsive mx-auto mb-5">¿Tiene usted alguna pregunta? Por favor, no dude en contactarnos directamente. Nuestro equipo se comunicará contigo en cuestión de horas para ayudarte.</p>
             <div class="row">
@@ -23,7 +58,7 @@
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
                                     <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Nombre</label>
+                                    <label for="name" class="">Nombre y Apellido</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -74,14 +109,14 @@
                         </div>
                     </form>
                     <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                        <a class="btn btn-success" onclick="document.getElementById('contact-form').submit(/assets/);">Enviar</a>
                     </div>
                     <div class="status"></div>
                 </div>
                 <div class="col-md-3 text-center">
                     <ul class="list-unstyled mb-0">
                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p>Buenos Aires, CABA, ARG</p>
+                            <p>Argentina, Buenos Aires, CABA</p>
                         </li>
         
                         <li><i class="fas fa-phone mt-4 fa-2x"></i>
@@ -96,9 +131,49 @@
             </div>
         </section>
     </fieldset>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <footer class="footer">
+        <div class="footer-left col-md-4 col-sm-6">
+            <p class="about">
+                <span>Lorem, ipsum dolor sit</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est sapiente ipsam aut vel repellat necessitatibus provident ab vitae! Aspernatur perferendis maiores odit mollitia minima aut dolor ipsam. Quisquam, perferendis.
+            </p>
+            <br><br>
+            <div class="icons">
+                <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
+                <a target="_blank"href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-center col-md-4 col-sm-6">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Villa Urquiza</span>Capital Federal</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p> (+54) 9 11 25114926</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:Illustrarg@gmail.com">Illustrarg@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+            <h2>Illustrarg</h2>
+            <p class="menu">
+            <a href="#inicio"> Inicio</a> |
+            <a href="#card-recreacion">Que hacemos</a> |
+            <a href="#card-coraje">Quienes somos</a> |
+            <a href="#galeria">Galeria</a> |
+            <a href="#contacto">Contacto</a>
+            </p>
+            <br>
+            <br>
+            <p class="name"> Illustrarg&copy;2022</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/6f24dcf161.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

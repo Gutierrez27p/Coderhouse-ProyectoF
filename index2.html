@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Página de diseño en general, logotipos, wallpapers, para estampados, diseños zona gamer, retratos digitales, consulta por tu diseño.">
     <meta name="keywords" content="Página de diseño, diseño grafico, diseño estampados, diseño tazas, diseño logos, diseño en general">
     <title>Illustrarg</title>
@@ -15,10 +16,10 @@
     </style>
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="nav-item nav-link" href="#"><img src="/assets/img/Illustrarg.png" width="80"></a>
+                <a class="nav-item nav-link" href="./index2.html"><img src="/assets/img/Illustrarg.png" width="80"></a>
                     <div class="d-flex">
                         <button class="navbar-toggler justify-content-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -26,20 +27,20 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="navbar-nav ms-auto barraIcons">
-                            <a target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.facebook.com"><img class="icon1" src="assets/icons/face.png" alt="facebook" width="30" height="24"></a>
-                            <a  target="_blank" class="nav-item nav-link " href="https://www.instagram.com/illustrarg"><img class="icon2" src="assets/icons/insta.png" alt="instagram" width="30" height="24"></a>
-                            <a  target="_blank" class="nav-item nav-link " href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><img class="icon3" src="assets/icons/wpp.png" alt="whatsapp" width="30" height="24"></a>
+                            <a target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
                         </div>
                     </div>
             </nav>
             <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="navbar-nav w-100 justify-content-evenly">
-                        <a class="nav-item nav-link active" href="#inicio">Inicio</a>
-                        <a class="nav-item nav-link" href="#card-recreacion">Que hacemos</a>
-                        <a class="nav-item nav-link" href="#card-coraje">Quienes somos</a>
+                        <a class="nav-item nav-link active" href="./index2.html">Inicio</a>
+                        <a class="nav-item nav-link" href="#que-hacemos">Que hacemos</a>
+                        <a class="nav-item nav-link" href="#quienes-somos">Quienes somos</a>
                         <a class="nav-item nav-link" href="#galeria">Galeria</a>
-                        <a class="nav-item nav-link" href="#contacto">Contacto</a>
+                        <a target="_blank" class="nav-item nav-link" href="assets/pages/formulario.html">Contacto</a>
                     </div>
                 </div>
             </nav>
@@ -47,54 +48,67 @@
     </header>
     <br><br><br>
     <h1 class="text-center"><u>Diseños Illustrarg</u></h1>
-    <section class="conteiner-recreacion">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="card" id="card-recreacion">
-                    <div class="card-body">
-                        <h2 class="card-title"><u>¿Que hacemos?</u></h2>
-                        <p class="card-text" id="tipo-letra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, necessitatibus repellendus accusamus vitae illum ducimus ab eius veritatis sequi itaque. Dignissimos voluptate ullam quae dolorum voluptas maxime eligendi reprehenderit asperiores?
-                        Ut iste, neque adipisci rerum minus optio omnis, ea fuga, quidem perspiciatis praesentium dolores distinctio vel asperiores eius! Nesciunt alias tempora ea maiores provident. Esse quisquam id aspernatur voluptatem possimus!
-                        Similique exercitationem, consectetur magni nobis ipsa aspernatur quisquam ut eligendi quasi libero repudiandae? Totam sequi asperiores veritatis molestias <a href="assets/pages/Que hacemos.html" target="_blank" rel="noopener noreferrer"><u>SEGUIR LEYENDO</u></a></p>
-                        <a class="btn btn-sucess"><img src="/assets/img/recreacion.jpg" alt="recreacion de cuadro"></a>
-                    </div>
+    <br><br><br>
+    <section class="conteiner-recreacion" id="que-hacemos">
+        <div class="card">
+            <div class="face front">
+                <img src="/assets/img/buu.jpg" alt="kid-buu">
+                <h3>Historia</h3>
+            </div>
+            <div class="face back">
+                <h3>Historia</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat eveniet sequi pariatur, aut veniam, beatae molestias voluptatem iste culpa veritatis expedita.</p>
+            </div>
+        </div>
+        <div class="card" id="quienes-somos">
+            <div class="face front">
+                <img src="/assets/img//recreacion.jpg" alt="recreacion">
+                <h3>¿Qué hacemos?</h3>
+            </div>
+            <div class="face back">
+                <h3>Lo que hacemos</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum molestiae explicabo quaerat.</p>
+                <div class="link">
+                    <a target="_blank" href="/assets/pages/Que hacemos.html">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front" id="img-surrealismo">
+                <img src="/assets/img/sebrea.jpg" alt="surrealismo">
+                <h3>¿Quiénes somos?</h3>
+            </div>
+            <div class="face back">
+                <h3>conociendonos</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+                <div class="link">
+                    <a target="_blank" href="assets/pages/Quienes somos.html">Ver más</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="conteiner-coraje">
-        <div class="col-sm-12">
-            <div class="card">
-                <div class="card-body" id="card-coraje">
-                    <h2 class="card-title">¿Quienes somos?</h2>
-                    <p class="card-text" id="tipo-letra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quaerat minus. Veniam aliquid rerum expedita dolorum aperiam illo quibusdam ducimus sit? Id, deleniti accusamus. Reiciendis ea laudantium dolorum illo velit.
-                    Molestiae reprehenderit ullam distinctio soluta, sequi numquam consequatur voluptate ad neque possimus in, harum dolorum deleniti quisquam doloribus, dolore dolor esse veniam dolorem adipisci eaque praesentium quia ducimus! Sit, rem.
-                    Voluptatem sit culpa inventore tenetur deleniti quam provident perferendis harum repudiandae modi error voluptatibus odit alias, non pariatur illo possimus accusantium maxime veritatis. Vitae dolore exercitationem cupiditate aperiam voluptatibus vero?<br>
-                    <a href="assets/pages/Que hacemos.html" target="_blank" rel="noopener noreferrer"><u style="color: white">SEGUIR LEYENDO</u></a></p>
-                    <a class="btn btn-sucess"><img src="/assets/img/corajeperro.png" alt="coraje el perro cobarde"></a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <br><br><br>
     <section id="galeria" class="">
         <h2 class="text-center"><u>Galeria de diseños</u></h2>
         <br><br>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner text-center">
                 <div class="carousel-item active">
-                    <img src="assets/img/logotipo.png" class="w-50 logo-tipo" id="logo-tipo" alt="Logo-tipo">
+                    <img src="assets/img/logotipo.png" class="w-100 logo-tipo" id="logo-tipo" alt="Logo-tipo">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/Simbanails.jpg" class="w-50" alt="simba-banner">
+                    <img src="assets/img/Simbanails.jpg" class="w-100" alt="simba-banner">
+                </div>
+                <div class="carousel-item ">
+                    <img src="assets/img/portada.jpg" class="w-100 portada" id="portada" alt="portada">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/portada.jpg" class="w-50 portada" id="portada" alt="portada">
+                    <img src="assets/img/personajetwitch.jpg" class="w-100 twitch" id="twitch" alt="twitch">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/personajetwitch.jpg" class="w-50 twitch" id="twitch" alt="twitch">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/collage.jpg" class="w-50 twitch" id="collage" alt="galeria">
+                    <img src="assets/img/collage.jpg" class="w-100 twitch" id="collage" alt="galeria">
                 </div>
             </div>
             <br><br>
@@ -111,9 +125,10 @@
             <p class="about">
                 <span>Lorem, ipsum dolor sit</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est sapiente ipsam aut vel repellat necessitatibus provident ab vitae! Aspernatur perferendis maiores odit mollitia minima aut dolor ipsam. Quisquam, perferendis.
             </p>
+            <br><br>
             <div class="icons">
-                <a target="_blank" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
                 <a target="_blank"href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
@@ -135,16 +150,17 @@
             <h2>Illustrarg</h2>
             <p class="menu">
             <a href="#inicio"> Inicio</a> |
-            <a href="#card-recreacion">Que hacemos</a> |
-            <a href="#card-coraje">Quienes somos</a> |
+            <a href="#que-hacemos">Que hacemos</a> |
+            <a href="#quienes-somos">Quienes somos</a> |
             <a href="#galeria">Galeria</a> |
-            <a href="#contacto">Contacto</a>
+            <a href="assets/pages/formulario.html">Contacto</a>
             </p>
             <br>
             <br>
             <p class="name"> Illustrarg&copy;2022</p>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/6f24dcf161.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

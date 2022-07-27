@@ -6,7 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
     </style>
@@ -16,7 +17,7 @@
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="nav-item nav-link" href="#"><img src="../img/Illustrarg.png" width="80"></a>
+                <a class="nav-item nav-link" href="#"><img src="/assets/img/Illustrarg.png" width="80"></a>
                     <div class="d-flex">
                         <button class="navbar-toggler justify-content-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -24,25 +25,26 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="navbar-nav ms-auto barraIcons">
-                            <a target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.facebook.com"><img class="icon1" src="../icons/face.png" alt="facebook" width="30" height="24"></a>
-                            <a  target="_blank" class="nav-item nav-link " href="https://www.instagram.com/illustrarg"><img class="icon2" src="../icons/insta.png" alt="instagram" width="30" height="24"></a>
-                            <a  target="_blank" class="nav-item nav-link " href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><img class="icon3" src="../icons/wpp.png" alt="whatsapp" width="30" height="24"></a>
+                            <a target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
                         </div>
                     </div>
             </nav>
             <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <div class="navbar-nav w-100 justify-content-evenly">
-                        <a class="nav-item nav-link active" href="#inicio">Inicio</a>
-                        <a class="nav-item nav-link" href="#card-recreacion">Que hacemos</a>
-                        <a class="nav-item nav-link" href="#card-coraje">Quienes somos</a>
-                        <a class="nav-item nav-link" href="#galeria">Galeria</a>
-                        <a class="nav-item nav-link" href="#contacto">Contacto</a>
+                        <a class="nav-item nav-link active" href="/index2.html">Inicio</a>
+                        <a class="nav-item nav-link" href="../pages/Que hacemos.html">Que hacemos</a>
+                        <a class="nav-item nav-link" href="../pages/Quienes somos.html">Quienes somos</a>
+                        <a class="nav-item nav-link" href="../pages/Galeria.html">Galeria</a>
+                        <a target="_blank" class="nav-item nav-link" href="../pages/formulario.html">Contacto</a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+    <br><br>
     <section class="titulo">
         <h2 class="subtituloQs">Lorem ipsum dolor</h2>
         <br><br>
@@ -53,12 +55,13 @@
             at urna.
             <br>
         </p>
+        <br><br>
         <section class="divwrap">
-            <h3 class="subtituloQs text-center">Logotipos</h3>
+            <h3 class="subtituloQs text-center"><u>Logotipos</u></h3>
             <br><br>
             <div class="disenosLogotipos">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/logoburger.jpg" alt="Logotipo1" width="auto" class="card-img-top" alt="Logo-burger">
+                    <img src="../img/thumbnails/logoburger.jpg" alt="Logotipo1" width="auto" class="card-img-top" alt="Logo-burger">
                         <div class="card-body text-center">
                             <h5 class="card-title">Logo DontBurger</h5>
                             <br>
@@ -66,7 +69,7 @@
                         </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/logogamer.jpg" alt="Logotipo2" width="auto" class="card-img-top" alt="Logo-gamer">
+                    <img src="../img/thumbnails/logogamer.jpg" alt="Logotipo2" width="auto" class="card-img-top" alt="Logo-gamer">
                         <div class="card-body text-center">
                             <h5 class="card-title">Logo Equipos</h5>
                             <br>
@@ -74,7 +77,7 @@
                         </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/logogame.jpg" alt="Logotipo3" width="auto" class="card-img-top" alt="Logo-gamer2">
+                    <img src="../img/thumbnails/logogame.jpg" alt="Logotipo3" width="auto" class="card-img-top" alt="Logo-gamer2">
                     <div class="card-body text-center">
                         <h5 class="card-title">Logo Gamer</h5>
                         <br>
@@ -82,7 +85,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/logosel.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="Logo-seguros">
+                    <img src="../img/thumbnails/logosel.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="Logo-seguros">
                     <div class="card-body text-center">
                         <h5 class="card-title"> Logo Seguros</h5>
                         <br>
@@ -91,11 +94,11 @@
                 </div>
             </div>
             <br><br>
-            <h3 class="tituloPp text-center">Poster/Portada</h3>
+            <h3 class="tituloPp text-center"><u>Poster/Portada</u></h3>
             <br><br>
             <div class="disenosPp" id="poster-portada" >
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/buu.jpg" alt="Logotipo3" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/buu.jpg" alt="Logotipo3" width="auto" class="card-img-top" alt="kid-buu">
                     <div class="card-body text-center">
                         <h5 class="card-title">Fondo DBZ</h5>
                         <br>
@@ -103,7 +106,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/portada.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/portada.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="portada-lp">
                     <div class="card-body text-center">
                         <h5 class="card-title">Portada LP</h5>
                         <br>
@@ -112,32 +115,40 @@
                 </div>
             </div>
             <br><br>
-            <h3 class="subtituloQs text-center">Persona a personaje</h3>
+            <h3 class="subtituloQs text-center"><u>Persona a personaje</u></h3>
             <br><br>
             <div class="disenosLogotipos" id="persona">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/personajetwitch.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/personajetwitch.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="personaje-twitch">
                     <div class="card-body text-center">
                         <h5 class="card-title">Phartner Twitch</h5>
                         <br>
                         <a target="_blank" href="../img/personajetwitch.jpg" class="btn btn-secondary">Ampliar</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="../img/personaje.jpg" alt="Logotipo4" width="200px" class="card-img-top" alt="...">
+                <div class="card " style="width: 18rem;">
+                    <img src="../img/thumbnails/personaje.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="persona-caricaturizada">
                     <div class="card-body text-center">
                         <h5 class="card-title">Caricatura</h5>
                         <br>
                         <a target="_blank" href="../img/personaje.jpg" class="btn btn-secondary">Ampliar</a>
                     </div>
                 </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/thumbnails/Spiderwacho.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="spiderwacho">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Spiderwacho</h5>
+                        <br>
+                        <a target="_blank" href="../img/Spiderwacho.jpg" class="btn btn-secondary">Ampliar</a>
+                    </div>
+                </div>
             </div>
             <br><br>
-            <h3 class="subtituloQs text-center">Banner y perfil twitch</h3>
+            <h3 class="subtituloQs text-center"><u>Banner y perfil twitch</u></h3>
             <br><br>
             <div class="disenosLogotipos" id="banners">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/twitchperfil.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/twitchperfil.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="twitch-perfil">
                     <div class="card-body text-center">
                         <h5 class="card-title">Perfil Twitch</h5>
                         <br>
@@ -145,8 +156,8 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/Bannertwitch.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
+                    <img src="../img/thumbnails/Bannertwitch.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="banner-twitch">
+                    <div class="card-body text-center ">
                         <h5 class="card-title">Banner</h5>
                         <br>
                         <a target="_blank" href="../img/Bannertwitch.jpg" class="btn btn-info">Ampliar</a>
@@ -154,11 +165,11 @@
                 </div>
             </div>
             <br><br>
-            <h3 class="subtituloQs text-center">Gamer</h3>
+            <h3 class="subtituloQs text-center"><u>Gamer</u></h3>
             <br><br>
             <div class="disenosLogotipos">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/logotipo.png" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/logotipo.png" alt="Logotipo4" width="auto" class="card-img-top" alt="logo-discord">
                     <div class="card-body text-center">
                         <h5 class="card-title">Gamer Discord</h5>
                         <br>
@@ -167,11 +178,11 @@
                 </div>
             </div>
             <br><br>
-            <h3 class="subtituloQs text-center">Retratos digitales</h3>
+            <h3 class="subtituloQs text-center"><u>Retratos digitales</u></h3>
             <br><br>
             <div class="disenosLogotipos">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/Retrato.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/Retrato.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="retrato-digital">
                     <div class="card-body text-center">
                         <h5 class="card-title">Retrato</h5>
                         <br>
@@ -180,11 +191,11 @@
                 </div>
             </div>
             <br><br>
-            <h3 class="subtituloQs text-center">Subrealismo con fotos reales</h3>
+            <h3 class="subtituloQs text-center"><u>Surrealismo con fotos reales</u></h3>
             <br><br>
-            <div class="disenosLogotipos" id="subrealismo">
+            <div class="disenosLogotipos" id="surrealismo">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/recreacion.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/recreacion.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="recreacion-cuadro">
                     <div class="card-body text-center">
                         <h5 class="card-title">Desde el cuadro</h5>
                         <br>
@@ -192,7 +203,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/sebrea.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/sebrea.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="surrealismo">
                     <div class="card-body text-center">
                         <h5 class="card-title">Planeta Medusa</h5>
                         <br>
@@ -201,11 +212,11 @@
                 </div>
             </div>
             <br><br>
-            <h3 class="subtituloQs text-center">Wallpapers</h3>
+            <h3 class="subtituloQs text-center"><u>Wallpapers</u></h3>
             <br><br>
             <div class="disenosLogotipos" id="wallpapers">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/Wallpaper.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/Wallpaper.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="wallpaper1">
                     <div class="card-body text-center">
                         <h5 class="card-title">Dance Rose</h5>
                         <br>
@@ -213,7 +224,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/wallpape.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/wallpape.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="wallpaper2">
                     <div class="card-body text-center">
                         <h5 class="card-title">Island</h5>
                         <br>
@@ -221,7 +232,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/Fondo.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="...">
+                    <img src="../img/thumbnails/Fondo.jpg" alt="Logotipo4" width="auto" class="card-img-top" alt="wallpaper3">
                     <div class="card-body text-center">
                         <h5 class="card-title">Fly Dance</h5>
                         <br>
@@ -237,9 +248,10 @@
             <p class="about">
                 <span>Lorem, ipsum dolor sit</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est sapiente ipsam aut vel repellat necessitatibus provident ab vitae! Aspernatur perferendis maiores odit mollitia minima aut dolor ipsam. Quisquam, perferendis.
             </p>
+            <br><br>
             <div class="icons">
-                <a target="_blank" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
                 <a target="_blank"href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
@@ -271,9 +283,9 @@
             <p class="name"> Illustrarg&copy;2022</p>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/6f24dcf161.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</body>
 </body>
 </html>

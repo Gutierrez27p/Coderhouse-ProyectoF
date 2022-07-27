@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
         </style>
@@ -13,26 +15,37 @@
 </head>
 <body>
     <header>
-        <a id="inicio"></a>
-        <div class="logotipo">
-            <img src ="../img/Illustrarg.png" alt="illustrarg" width="120" class="logoPage"/>
-            <h2>Illustrarg</h2>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="nav-item nav-link" href="#"><img src="/assets/img/Illustrarg.png" width="80"></a>
+                    <div class="d-flex">
+                        <button class="navbar-toggler justify-content-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="navbar-nav ms-auto barraIcons">
+                            <a target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
+                            <a  target="_blank" class="nav-item nav-link" id="iconos-redes" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav w-100 justify-content-evenly">
+                        <a class="nav-item nav-link active" href="/index2.html">Inicio</a>
+                        <a class="nav-item nav-link" href="../pages/Que hacemos.html">Que hacemos</a>
+                        <a class="nav-item nav-link" href="../pages/Quienes somos.html">Quienes somos</a>
+                        <a target="_blank" class="nav-item nav-link" href="../pages/Galeria.html">Galeria</a>
+                        <a target="_blank" class="nav-item nav-link" href="../pages/formulario.html">Contacto</a>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <nav>
-            <ul class="menu">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="../pages/Quienes somos.html">Quienes somos</a></li>
-            <li><a href="../pages/Que hacemos.html">Que hacemos</a></li>
-            <li><a href="../pages/Galeria.html">Diseños</a></li>
-            <li><a target="_blank" href="../pages/formulario.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <br><br>
-
     </header>
-    
-    <section class="titulo">
-
+    <br><br>
+    <section class="titulo text-center">
         <h1 class="subtituloQs">¿Quiénes Somos?</h1>
         <br>
         <h2 class="tituloTexto">Lorem ipsum dolor</h2>
@@ -69,7 +82,7 @@
             <img src="../img/personaje.jpg" alt="personaje" width="250"></a>
             </div>
         </div>
-        <p class="textoInferior">
+        <p class="textoInferior text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Nisl vel pretium lectus quam id leo in vitae turpis. Facilisis magna etiam tempor orci eu lobortis elementum nibh. 
             Ut tristique et egestas quis. Aliquet sagittis id consectetur purus. Purus gravida quis blandit turpis. Nullam eget felis 
@@ -82,10 +95,7 @@
             quisque non tellus.
         </p>
     </section>
-        <br>
-    <section class="tituloPublicidad">
-        <h2 class="lorem">Lorem ipsum dolor</h2>
-        <div class="imagenQs">
+    <div class="imagenQs text-center">
             <a target="_blank" href="../img/Publicidad.png"></a><img src="../img/Publicidad.png" alt="Publicidad" width="300" height="600"/>
             <p class="textoPublicidad">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -110,41 +120,52 @@
                 Eu facilisis sed odio morbi quis commodo odio aenean sed. Lectus proin nibh nisl condimentum id. Rhoncus urna neque 
                 viverra justo nec ultrices dui sapien eget. Risus nec feugiat in fermentum. Id semper risus in hendrerit gravida rutrum 
                 quisque non tellus.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Nisl vel pretium lectus quam id leo in vitae turpis. Facilisis magna etiam tempor orci eu lobortis elementum nibh. 
-                Ut tristique et egestas quis. Aliquet sagittis id consectetur purus. Purus gravida quis blandit turpis. Nullam eget felis 
-                eget nunc. Turpis egestas integer eget aliquet nibh praesent tristique. Vitae sapien pellentesque habitant morbi tristique 
-                senectus. Tempus urna et pharetra pharetra massa massa. Tortor vitae purus faucibus ornare suspendisse sed nisi. Id faucibus
-                nisl tincidunt eget nullam non. Scelerisque viverra mauris in aliquam sem fringilla ut. Tempor orci eu lobortis elementum 
-                nibh tellus. Egestas dui id ornare arcu odio. Proin fermentum leo vel orci porta. Nunc mattis enim ut tellus.
-                Eu facilisis sed odio morbi quis commodo odio aenean sed. Lectus proin nibh nisl condimentum id. Rhoncus urna neque 
-                viverra justo nec ultrices dui sapien eget. Risus nec feugiat in fermentum. Id semper risus in hendrerit gravida rutrum 
-                quisque non tellus. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Dictum non consectetur a erat. Pretium 
-                fusce id velit ut tortor pretium viverra suspendisse potenti. Quisque egestas diam in arcu cursus euismod quis viverra nibh.
-                Integer quis auctor elit sed vulputate mi sit. Id nibh tortor id aliquet lectus proin. Commodo nulla facilisi nullam vehicula
-                ipsum a arcu cursus vitae. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum. Vel risus commodo viverra 
-                maecenas accumsan. Nulla at volutpat diam ut venenatis. Porta non pulvinar neque laoreet suspendisse interdum consectetur 
-                libero id.
-                Turpis egestas integer eget aliquet nibh praesent tristique. Vitae sapien pellentesque habitant morbi tristique 
-                senectus. Tempus urna et pharetra pharetra massa massa.
             </p>
         </div>
-        
-    </section>
-
-    <br><br><br>
-
+    <br>
     <footer class="footer">
-        <div class="fDerecha">
-            <a href="mailto:illustrarg@gmail.com">illustrarg@gmail.com</a>
-            <div class="redes">
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><img src="../img/wpp.png" alt="wpp" width="35px"></a>
-                <a target="_blank" href="https://www.facebook.com/"><img src="../img/face.png" alt="face" width="35px"></a>
-                <a target="_blank" href="https://www.instagram.com/illustrarg"><img src="../img/insta.png" alt="insta" width="30px"></a>
+        <div class="footer-left col-md-4 col-sm-6">
+            <p class="about">
+                <span>Lorem, ipsum dolor sit</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est sapiente ipsam aut vel repellat necessitatibus provident ab vitae! Aspernatur perferendis maiores odit mollitia minima aut dolor ipsam. Quisquam, perferendis.
+            </p>
+            <br><br>
+            <div class="icons">
+                <a target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=1125114926&text=Buenas%20tardes!%20Quisiera%20un%20presupuesto%20por%20un%20dise%C3%B1o."><i class="fa fa-whatsapp"></i></a>
+                <a target="_blank"href="https://www.instagram.com/illustrarg"><i class="fa fa-instagram"></i></a>
             </div>
-            <a href="../index.html">Volver a inicio</a>
         </div>
-        <p>Illustrarg 2020 ©. Todos los derechos reservados.</p>
+        <div class="footer-center col-md-4 col-sm-6">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Villa Urquiza</span>Capital Federal</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p> (+54) 9 11 25114926</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:Illustrarg@gmail.com">Illustrarg@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+            <h2>Illustrarg</h2>
+            <p class="menu">
+            <a href="#inicio"> Inicio</a> |
+            <a href="#card-recreacion">Que hacemos</a> |
+            <a href="#card-coraje">Quienes somos</a> |
+            <a href="#galeria">Galeria</a> |
+            <a href="#contacto">Contacto</a>
+            </p>
+            <br>
+            <br>
+            <p class="name"> Illustrarg&copy;2022</p>
+        </div>
     </footer>
+    <script src="https://kit.fontawesome.com/6f24dcf161.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
