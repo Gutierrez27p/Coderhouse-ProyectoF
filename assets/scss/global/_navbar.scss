@@ -1,27 +1,25 @@
 .navbar-expand-lg{
-    background-color: #009941bd;
+    background-color: $color-nav;
 }
 
 .nav-item{
     padding: 0;
-    padding-left: 1rem;
+    padding-left: $small;
 }
 
 .bg-light{
-    background-color: #7de0a6fa!important;
+    background-color: $color-nav-ul!important;
 }
 
 .ms-auto{
-    display: flex;
+    @include flex (row, center, none);
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding:0 1rem 0 1rem;
+    padding:0 $small 0 $small;
 }
 
 .navbar-nav{
     font-size: large;
-    align-items: center;
+    align-items: $center;
 }
 
 #navbarSupportedContent{
@@ -33,11 +31,11 @@
 }
 
 div .navbar-nav{
-    padding: 10px;
+    padding: $size-sm;
 }
 
 nav div .navbar-nav #iconos-redes{
-    margin: 1rem;
+    margin: $small;
     font-size: 25px;
-    color: black;
+    color: $color-black;
 }

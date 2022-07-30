@@ -3,164 +3,98 @@
     padding: 0!important;
 }
 html {
-    font-family: 'Montserrat', sans-serif;       /* <-------        fuente de la web */
+    font-family: 'Jost', sans-serif;       /* <-------        fuente de la web */
 }
 body {
     margin: 0;
     background-image: url(/assets/img/background.jpg);       /* <-------        fondo de la web */
-    background-size: 100%;
+    background-size: $all;
 }
 /*Que hacemos page*/
 section .subtituloQs,
 .textoDisenos{
-    text-align: center;
-    padding-left: 1rem!important;
-    padding-right: 1rem!important;
+    text-align: $center;
+    padding-left: $small!important;
+    padding-right: $small!important;
 }
 section h3{
-    font-size: 35px;
-    color: #41963a;
+    font-size: 15px;
+    color: $color-h3;
 }
 .textoSuperior{
-    padding: 3rem!important;
+    padding: $medium!important;
 }
 .imagenQs,
 .textoInferior{
-    padding: 3rem!important;
+    padding: $small!important;
 }
 .imgQh{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include flex (row, space-around, center);
     align-content: stretch;
-    justify-content: space-around;
-    align-items: center;
 }
 .imgQh img{
-    margin: 1rem;
-    border: 10px;
-    border-radius: 5rem;
+    margin: $small;
+    border: $size-sm;
+    border-radius: $large;
 }
 .imgQh p{
     font-size: 20px;
-    color: #e0b159;
+    color: $color-p-qh;
 }
 .checkboxform{
     font-size: 23px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flex (row, center, none);
 }
 /*Articulo1 index*/
-.container{
-    text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 100%;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    }
-    .mytext1{
-    color: rgb(0, 0, 0);
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    margin-bottom: 20px;
-    background: #7de0a6fa;
-    position: relative;
-    animation: text 3s 1;
-    }
-    .mytext2{
-    font-size: 30px;
-    color: #81f83c;
-    font-weight: bold;
-    font-family: cursive;
-    }
-    @keyframes text {
-    0%{
-    color: black;
-    margin-bottom: -40px;
-    }
-    30%{
-    letter-spacing: 25px;
-    margin-bottom: -40px;
-    }
-    85%{
-    letter-spacing: 8px;
-    margin-bottom: -40px;
-    }
-}
 #text-center{
-    text-align: center;
+    text-align: $center;
 }
 div .media-body{
-    padding: 1rem;
+    padding: $small;
 }
 .media{
-    padding: 1rem;
+    padding: $small;
 }
 fieldset .mb-12{
-    margin: 5rem;
+    margin: $large;
 }
 section .md-form{
-    padding: 1rem!important;
+    padding: $small!important;
 }
 div .btn{
-    color:white!important;
+    color:$color-white!important;
     font-size: 20px;
 }
 /* articulo2 */
 .card-title, .card-text{
-    text-align: center;
-}
-.conteiner-coraje 
-.card 
-.card-body{
-    background-color: #f8bf6994!important;
-}
-#card-body-coraje{
-    background-color: none!important;
+    text-align: $center;
 }
 .img-center{
-    text-align: center!important;
+    text-align: $center!important;
     padding: 0.5rem!important;
 }
 .btn-sl{
-    padding: 1rem!important;
+    padding: $small!important;
 }
 .card-text{
     padding-top: 2rem!important;
 }
 #tipo-letra{
     font-size: larger;
-    font-family: sans-serif;
-}
-.conteiner-coraje #tipo-letra{
-    font-size: medium;
+    font-family: $font-secundario;
 }
 .conteiner-recreacion{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include flex (row, center, none);
     align-content: space-around;
-    justify-content: center;
 }
 .disenosLogotipos,
 .disenosPp{
-    display: flex;
-    flex-wrap: wrap;
+    @include flex (none, none, none);
     justify-content: space-around;
 }
 .divwrap{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    @include flex (column, space-evenly, center);
     align-content: stretch;
-    align-items: center;
-    justify-content: space-evenly;
 }
 #poster-portada,
 #persona,
@@ -175,6 +109,7 @@ div .btn{
     width: 300px;
     height: 350px;
     margin: 20px;
+    border: 0!important;
 }
 .divwrap div .card{
     position: relative;
@@ -183,55 +118,53 @@ div .btn{
 }
 .card .face {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: $all;
+    height: $all;
     backface-visibility: hidden;
-    border-radius: 10px;
+    border-radius: $size-sm;
     overflow: hidden;
     transition: .5s;
 }
 .card .front {
     transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
+    box-shadow: 0 5px 10px $color-black;
 }
 .card .front img {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: $all;
+    height: $all;
     object-fit: cover;
     
 }
 .card .front h3 {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    background: rgba(0,0,0,.4);
-    text-align: center;
+    width: $all;
+    height: 25px;
+    line-height: 25px;
+    color: $color-white;
+    background: $color-black-claro;
+    text-align: $center;
 }
 .card .back {
     transform: perspective(600px) rotateY(180deg);
-    background: rgba(10, 160, 68, 0.774);
+    background: $bg-color-card-index;
     padding: 15px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    box-shadow: 0 5px 10px #000;
+    color: $color-white;
+    @include flex (column, space-between, none);
+    text-align: $center;
+    box-shadow: 0 5px $size-sm $color-black;
 }
 .card .back .link {
-    border-top: solid 1px #f3f3f3;
-    height: 50px;
-    line-height: 50px;
+    border-top: solid 1px $color-white;
+    height: $size-l;
+    line-height: $size-l;
 }
 .card .back .link a {
-    color: #f3f3f3;
+    color: $color-white;
 }
 .card .back h3 {
-    font-size: 30px;
+    font-size: $size-m;
     margin-top: 20px;
     letter-spacing: 2px;
 }
@@ -247,8 +180,8 @@ div .btn{
 /*carroussel*/
 .carousel-item img{
     width: 33%!important;
-    justify-items: center!important;
+    justify-items: $center!important;
 }
 .boton-galeria{
-    text-align: center!important;
+    text-align: $center!important;
 }
