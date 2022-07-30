@@ -81,7 +81,7 @@ div .btn{
 }
 #tipo-letra{
     font-size: larger;
-    font-family: $font-secundario;
+    font-family: 'sans-serif';
 }
 .conteiner-recreacion{
     @include flex (row, center, none);
@@ -156,7 +156,7 @@ div .btn{
     box-shadow: 0 5px $size-sm $color-black;
 }
 .card .back .link {
-    border-top: solid 1px $color-white;
+    border-top: solid 0 $color-white;
     height: $size-l;
     line-height: $size-l;
 }
