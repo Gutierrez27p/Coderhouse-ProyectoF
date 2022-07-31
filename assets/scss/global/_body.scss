@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0!important;
+    background-image: url(/assets/img/background.jpg);
 }
 html {
     font-family: 'Jost', sans-serif;       /* <-------        fuente de la web */
@@ -18,7 +19,7 @@ section .subtituloQs,
     padding-right: $small!important;
 }
 section h3{
-    font-size: 15px;
+    font-size: $size-m;
     color: $color-h3;
 }
 .textoSuperior{
@@ -110,6 +111,7 @@ div .btn{
     height: 350px;
     margin: 20px;
     border: 0!important;
+    background: none;
 }
 .divwrap div .card{
     position: relative;
@@ -184,4 +186,80 @@ div .btn{
 }
 .boton-galeria{
     text-align: $center!important;
+}
+/*mobile*/
+@media screen and (min-width: 576px)and(max-width:767px){
+    header {text-align: center;}
+    .navbar-nav{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .conteiner-recreacion{
+        @include flex (column, center, none);
+        width: 100%;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel-item img{
+        width: 60%!important;
+    }
+    .footer{
+        @include flex (column,none,center);
+        .icons{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .footer .menu{
+        font-size: 14px;
+    }
+}
+/*tablet*/
+@media screen and (min-width: 768px)and(max-width:991px){
+    .navbar-nav{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .conteiner-recreacion{
+        @include flex (column, center, none);
+        width: 100%;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel-item img{
+        width: 50%!important;
+    }
+    .footer{
+        @include flex (none,space-between,center);
+        .icons{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .footer .footer-center{
+        width: 40%!important;
+    }
+    .footer .footer-right {
+        width: 50%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 992px)and(max-width:1200px){
+    .carousel{
+        width: 100%;
+    }
+    .carousel-item img{
+        width: 28%!important;
+    }
+    .footer{
+        @include flex (none,space-between,flex-start);
+        .footer-center{
+            width: 40%!important;
+        }
+        .footer-right{
+            text-align: center;
+        }
+    }
 }

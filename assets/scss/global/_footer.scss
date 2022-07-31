@@ -2,7 +2,6 @@
     background-color: $color-nav;
     width: $all;
     text-align: left;
-    font-family: 'Jost';
     font-weight: bold;
     font-size: 16px;
     padding: $size-l!important;
@@ -83,6 +82,7 @@
 /* footer right*/
 .footer .footer-right {
     width: 35%;
+    text-align: center;
 }
 .footer h2 {
     color: $color-text-footer;
