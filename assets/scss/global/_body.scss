@@ -190,9 +190,10 @@ div .btn{
 }
 /*carroussel*/
 .carousel-item img{
-    width: 33%!important;
+    padding-top: 2rem!important;
     justify-items: $center!important;
 }
 .boton-galeria{
     text-align: $center!important;
+    padding: 2rem!important;
 }
