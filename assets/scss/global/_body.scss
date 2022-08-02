@@ -18,6 +18,12 @@ section .subtituloQs,
     padding-left: $small!important;
     padding-right: $small!important;
 }
+#navbarSupportedContent{
+    padding:0!important;
+}
+.d-flex {
+    padding: 3vh!important;
+}
 section h3{
     font-size: $size-m;
     color: $color-h3;
@@ -47,8 +53,8 @@ section h3{
     @include flex (row, center, none);
 }
 /*Articulo1 index*/
-#text-center{
-    text-align: $center;
+#distanciah1{
+    padding: $medium!important;
 }
 div .media-body{
     padding: $small;
@@ -103,6 +109,9 @@ div .btn{
 #subrealismo,
 #wallpapers{
     justify-content: space-evenly;
+}
+#galeria{
+    padding: $medium!important;
 }
 /*Cards-flip*/
 .card {
@@ -186,80 +195,4 @@ div .btn{
 }
 .boton-galeria{
     text-align: $center!important;
-}
-/*mobile*/
-@media screen and (min-width: 576px)and(max-width:767px){
-    header {text-align: center;}
-    .navbar-nav{
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .conteiner-recreacion{
-        @include flex (column, center, none);
-        width: 100%;
-    }
-    .carousel{
-        width: 100%;
-    }
-    .carousel-item img{
-        width: 60%!important;
-    }
-    .footer{
-        @include flex (column,none,center);
-        .icons{
-            display: flex;
-            justify-content: center;
-        }
-    }
-    .footer .menu{
-        font-size: 14px;
-    }
-}
-/*tablet*/
-@media screen and (min-width: 768px)and(max-width:991px){
-    .navbar-nav{
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .conteiner-recreacion{
-        @include flex (column, center, none);
-        width: 100%;
-    }
-    .carousel{
-        width: 100%;
-    }
-    .carousel-item img{
-        width: 50%!important;
-    }
-    .footer{
-        @include flex (none,space-between,center);
-        .icons{
-            display: flex;
-            justify-content: center;
-        }
-    }
-    .footer .footer-center{
-        width: 40%!important;
-    }
-    .footer .footer-right {
-        width: 50%;
-        text-align: center;
-    }
-}
-@media screen and (min-width: 992px)and(max-width:1200px){
-    .carousel{
-        width: 100%;
-    }
-    .carousel-item img{
-        width: 28%!important;
-    }
-    .footer{
-        @include flex (none,space-between,flex-start);
-        .footer-center{
-            width: 40%!important;
-        }
-        .footer-right{
-            text-align: center;
-        }
-    }
 }
