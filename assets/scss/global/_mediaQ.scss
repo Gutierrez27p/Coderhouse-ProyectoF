@@ -1,5 +1,5 @@
 /*mobile*/
-@media screen and (min-width: 375px)and(max-width:767px){
+@media screen and (min-width: 360px)and(max-width:767px){
     header{
         div .navbar-nav{
             font-size: 40px!important;
@@ -29,8 +29,8 @@
     .footer{
         @include flex (column,none,center);
         .icons{
-            display: flex;
-            justify-content: center;
+            display: flex!important;
+            justify-content: center!important;
             padding: 2rem!important;
         }
         .about{
@@ -38,11 +38,11 @@
         }
         span, p{
             font-size: 20px!important;
-            padding: 2px;
+            padding: 2px!important;
         }
     }
     .footer .menu{
-        font-size: 30px;
+        font-size: 20px!important;
     }
 }
 /*tablet*/
@@ -50,14 +50,14 @@
     header{
         div .navbar-nav{
             font-size: 40px!important;
-            font-weight: bold;
+            font-weight: bold!important;
         }
         .d-flex {
             padding: 1rem!important;
         }
         text-align: center;
         .barraIcons{
-            display: none;
+            display: none!important;
         }
     }
     .conteiner-recreacion{
