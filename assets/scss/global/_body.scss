@@ -93,6 +93,7 @@ div .btn{
 .conteiner-recreacion{
     @include flex (column, center, none);
     align-content: space-around;
+    padding-top: 2rem!important;
 }
 .disenosLogotipos,
 .disenosPp{
@@ -111,7 +112,8 @@ div .btn{
     justify-content: space-evenly;
 }
 #galeria{
-    padding: $medium!important;
+    width: 100%;
+    padding-top: 2rem!important;
 }
 /*Cards-flip*/
 .card {
@@ -195,7 +197,6 @@ div .btn{
 }
 .boton-galeria{
     text-align: $center!important;
-    padding: 2rem!important;
 }
 /*Contenedor boton*/
 .contenedor-boton{

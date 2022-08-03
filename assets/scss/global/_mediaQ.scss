@@ -1,8 +1,65 @@
 /*mobile*/
-@media screen and (min-width: 360px)and(max-width:767px){
+@media screen and (min-width: 360px)and(max-width: 500px){
     header{
         div .navbar-nav{
-            font-size: 40px!important;
+            font-size: 25px!important;
+            font-weight: bold;
+        }
+        .d-flex {
+            padding: 1rem!important;
+        }
+        text-align: center;
+        .barraIcons{
+            display: none;
+        }
+    }
+    #distanciah1{
+        font-size: 25px;
+    }
+    .conteiner-recreacion{
+        @include flex (column, space-around, center);
+        width: 100%;
+    }
+    .carousel-item img{
+        width: 85%!important;
+    }
+    .carousel-inner{
+        margin-bottom: 2rem;
+    }
+    .boton-galeria a{
+        padding: 30px;
+    }
+    .boton{
+        width: 60%!important;
+    }
+    .footer{
+        @include flex (column,none,center);
+        .icons{
+            display: flex!important;
+            justify-content: center!important;
+            padding: 2rem!important;
+        }
+        .about{
+            padding-bottom: 2rem!important;
+        }
+        span, p{
+            font-size: 20px!important;
+            padding: 2px!important;
+        }
+    }
+    .footer .menu{
+        font-size: 20px!important;
+                margin: 20px 0 70px!important;
+    }
+    .footer .name{
+        font-size: 14px!important;
+    }
+}
+
+@media screen and (min-width: 501px)and(max-width:767px){
+    header{
+        div .navbar-nav{
+            font-size: 25px!important;
             font-weight: bold;
         }
         .d-flex {
@@ -18,7 +75,10 @@
         width: 100%;
     }
     .carousel-item img{
-        width: 70%!important;
+        width: 65%!important;
+    }
+    .carousel-inner{
+        margin-bottom: 2rem;
     }
     .boton-galeria a{
         padding: 30px!important;
@@ -43,13 +103,18 @@
     }
     .footer .menu{
         font-size: 20px!important;
+        margin: 20px 0 70px!important;
+    }
+    .footer .name{
+        font-size: 14px!important;
     }
 }
+
 /*tablet*/
 @media screen and (min-width: 768px)and(max-width:991px){
     header{
         div .navbar-nav{
-            font-size: 40px!important;
+            font-size: 30px!important;
             font-weight: bold!important;
         }
         .d-flex {
@@ -67,54 +132,83 @@
     .carousel{
         width: 100%;
     }
+    .carousel-inner{
+        margin-bottom: 2rem;
+    }
     .carousel-item img{
         width: 50%!important;
     }
+    .boton-galeria a{
+        padding: 30px!important;
+    }
+    .boton-galeria{
+        padding: 0 19rem!important;
+    }
     .footer{
-        @include flex (column,space-around,center);
+        @include flex (column,none,center);
         .icons{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            display: flex!important;
+            justify-content: center!important;
             padding: 2rem!important;
         }
         .about{
-            font-size: 23px;
+            padding-bottom: 2rem!important;
         }
-        div{
-            text-align: center;
-            font-size: 22px;
+        span, p{
+            font-size: 20px!important;
+            padding: 2px!important;
         }
-        .menu{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            a{
-                padding: 0.5rem!important;
-            }
-        }
-        h2{
-            padding: 2rem!important;
-        }
+    }
+    .footer .menu{
+        font-size: 20px!important;
+        margin: 20px 0 70px!important;
+    }
+    .footer .name{
+        font-size: 14px!important;
     }
     .footer .footer-center{
         width: 40%!important;
-    }
-    .footer .footer-right {
-        width: 50%;
         text-align: center;
+        padding: 1rem!important;
+    }
+    .footer .footer-right,
+    .footer-left {
+        width: 100%;
+        text-align: center;
+        padding: 1rem!important;
+    }
+    .footer .mail{
+        font-size: 15px;
     }
 }
 /*Desktop*/
-@media screen and (min-width: 992px)and(max-width:1200px){
+@media screen and (min-width: 992px)and(max-width:1050px){
+    header{
+        div .navbar-nav{
+            font-size: 20px!important;
+            font-weight: bold!important;
+        }
+        text-align: center;
+    }
+    .conteiner-recreacion{
+        display: flex!important;
+        flex-direction: row!important;
+        flex-wrap: wrap!important;
+        align-content: space-between!important;
+        align-items: center;
+        width: 100%;
+    }
     .carousel{
         width: 100%;
     }
+    .carousel-inner{
+        margin-bottom: 2rem;
+    }
     .carousel-item img{
-        width: 28%!important;
+        width: 40%!important;
+    }
+    .boton-galeria{
+        padding: 0 26rem!important;
     }
     .footer{
         @include flex (none,space-between,flex-start);
@@ -123,6 +217,74 @@
         }
         .footer-right{
             text-align: center;
+        }
+        .footer.name{
+            font-size: 14px!important;
+        }
+        .menu{
+            margin-bottom: 5rem!important;
+        }
+        p{
+            font-size: 20px;
+        }
+        .about{
+            font-size: 20px!important;
+        }
+        .about span{
+            font-size: 25px!important;
+        }
+    }
+}
+@media screen and (min-width: 1051px)and(max-width:2200px){
+    header{
+        div .navbar-nav{
+            font-size: 20px!important;
+            font-weight: bold!important;
+        }
+        text-align: center;
+    }
+    .conteiner-recreacion{
+        display: flex!important;
+        flex-direction: row!important;
+        flex-wrap: wrap!important;
+        align-content: space-between!important;
+        align-items: center;
+        width: 100%;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel-inner{
+        margin-bottom: 2rem;
+    }
+    .carousel-item img{
+        width: 28%!important;
+    }
+    .boton-galeria{
+        padding: 0 28rem!important;
+    }
+    .footer{
+        @include flex (none,space-between,flex-start);
+        .footer-center{
+            width: 40%!important;
+        }
+        .footer-right{
+            text-align: center;
+        }
+        .footer.name{
+            font-size: 10px!important;
+        }
+        .menu{
+            margin-bottom: 8rem!important;
+        }
+        p{
+            font-size: 18px;
+        }
+        .about{
+            font-size: 15px!important;
+        }
+        .about span{
+            font-size: 20px!important;
         }
     }
 }
