@@ -21,6 +21,9 @@
     .boton-galeria a{
         padding: 30px!important;
     }
+    .boton{
+        width: 60%!important;
+    }
     .footer{
         text-align: center!important;
         @include flex (column,none,center);
