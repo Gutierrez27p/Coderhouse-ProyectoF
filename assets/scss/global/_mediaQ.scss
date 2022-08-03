@@ -1,15 +1,17 @@
 /*mobile*/
 @media screen and (min-width: 576px)and(max-width:767px){
-    header {text-align: center;}
-    .d-flex {
-        padding: 1rem!important;
-    }
-    div .navbar-nav{
-        font-size: 30px!important;
-        font-weight: bold;
-    }
-    nav div .navbar-nav #iconos-redes {
-        display: none; 
+    header{
+        div .navbar-nav{
+            font-size: 40px!important;
+            font-weight: bold;
+        }
+        .d-flex {
+            padding: 1rem!important;
+        }
+        text-align: center;
+        .barraIcons{
+            display: none;
+        }
     }
     .conteiner-recreacion{
         @include flex (column, center, none);
@@ -25,7 +27,6 @@
         width: 60%!important;
     }
     .footer{
-        text-align: center!important;
         @include flex (column,none,center);
         .icons{
             display: flex;
@@ -46,15 +47,18 @@
 }
 /*tablet*/
 @media screen and (min-width: 768px)and(max-width:991px){
-    .d-flex {
-        padding: 1rem!important;
-    }
-    nav div .navbar-nav #iconos-redes {
-        display: none; 
-    }
-    .navbar-nav{
-        font-size: 23px!important;
-        font-weight: bold;
+    header{
+        div .navbar-nav{
+            font-size: 40px!important;
+            font-weight: bold;
+        }
+        .d-flex {
+            padding: 1rem!important;
+        }
+        text-align: center;
+        .barraIcons{
+            display: none;
+        }
     }
     .conteiner-recreacion{
         @include flex (column, center, none);
