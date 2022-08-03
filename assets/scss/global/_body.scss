@@ -91,7 +91,7 @@ div .btn{
     font-family: 'sans-serif';
 }
 .conteiner-recreacion{
-    @include flex (row, center, none);
+    @include flex (column, center, none);
     align-content: space-around;
 }
 .disenosLogotipos,
