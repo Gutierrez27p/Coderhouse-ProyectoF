@@ -80,6 +80,9 @@ div .btn{
     text-align: $center!important;
     padding: 0.5rem!important;
 }
+.card .back p{
+    padding: 0 0.5rem!important;
+}
 .btn-sl{
     padding: $small!important;
 }
@@ -88,7 +91,7 @@ div .btn{
 }
 #tipo-letra{
     font-size: larger;
-    font-family: 'sans-serif';
+    font-family: 'jost';
 }
 .conteiner-recreacion{
     @include flex (column, center, none);

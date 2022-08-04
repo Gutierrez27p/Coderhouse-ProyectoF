@@ -20,6 +20,9 @@
         @include flex (column, space-around, center);
         width: 100%;
     }
+    .card .back p{
+    padding: 0 0.5rem!important;
+    }
     .carousel-item img{
         width: 85%!important;
     }
