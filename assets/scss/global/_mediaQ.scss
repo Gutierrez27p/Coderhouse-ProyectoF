@@ -32,6 +32,29 @@
     .boton{
         width: 60%!important;
     }
+    /*formulario*/
+    section .md-form {
+        padding: 1rem !important;
+        height: 60px;
+        margin-bottom: 2rem!important;
+    }
+    .form-control {
+        height: 50px;
+    }
+    /*que hacemos*/
+    .imgQh{
+        margin: 2rem;
+    }
+    .imgQh img.simba{
+        width: 300px!important;
+    }
+    .imgQh img.pinguin{
+        width: 130px;
+    }
+    section div #enviarboton{
+        margin: 2rem;
+        width: 30%;
+    }
     .footer{
         @include flex (column,none,center);
         .icons{
@@ -85,6 +108,29 @@
     }
     .boton{
         width: 60%!important;
+    }
+    /*formulario*/
+    section .md-form {
+        padding: 1rem !important;
+        height: 60px;
+        margin-bottom: 2rem!important;
+    }
+    .form-control {
+        height: 50px;
+    }
+    /*que hacemos*/
+    .imgQh{
+        margin: 1rem;
+    }
+    .imgQh img.simba{
+        width: 300px!important;
+    }
+    .imgQh img.pinguin{
+        width: 130px;
+    }
+    section div #enviarboton{
+        margin: 2rem;
+        width: 30%;
     }
     .footer{
         @include flex (column,none,center);
@@ -143,6 +189,23 @@
     }
     .boton-galeria{
         padding: 0 19rem!important;
+    }
+    /*formulario*/
+    section .md-form {
+        padding: 1rem !important;
+        height: 60px;
+        margin-bottom: 2rem!important;
+    }
+    .form-control {
+        height: 50px;
+    }
+        /*que hacemos*/
+    .imgQh{
+        margin: 2rem;
+    }
+    section div #enviarboton{
+        margin: 2rem;
+        width: 10%;
     }
     .footer{
         @include flex (column,none,center);
@@ -208,6 +271,23 @@
     .boton-galeria{
         padding: 0 26rem!important;
     }
+    /*formulario*/
+    section .md-form {
+        padding: 1rem !important;
+        height: 60px;
+        margin-bottom: 2rem!important;
+    }
+    .form-control {
+        height: 50px;
+    }
+    /*que hacemos*/
+    .imgQh{
+        margin: 2rem;
+    }
+    section div #enviarboton{
+        margin: 2rem;
+        width: 20%;
+    }
     .footer{
         @include flex (none,space-between,flex-start);
         flex-wrap: nowrap;
@@ -261,6 +341,23 @@
     }
     .boton-galeria{
         padding: 0 28rem!important;
+    }
+    /*formulario*/
+    section .md-form {
+        padding: 1rem !important;
+        height: 60px;
+        margin-bottom: 2rem!important;
+    }
+    .form-control {
+        height: 50px;
+    }
+    /*que hacemos*/
+    .imgQh{
+        margin: 2rem;
+    }
+    section div #enviarboton{
+        margin: 2rem;
+        width: 10%;
     }
     .footer{
         @include flex (none,space-between,flex-start);
