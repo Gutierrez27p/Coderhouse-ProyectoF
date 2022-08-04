@@ -149,13 +149,13 @@
         .icons{
             display: flex!important;
             justify-content: center!important;
-            padding: 2rem!important;
+            margin-bottom: 2rem;
         }
         .about{
             padding-bottom: 2rem!important;
         }
         span, p{
-            font-size: 20px!important;
+            font-size: 18px!important;
             padding: 2px!important;
         }
     }
@@ -169,13 +169,11 @@
     .footer .footer-center{
         width: 40%!important;
         text-align: center;
-        padding: 1rem!important;
     }
     .footer .footer-right,
     .footer-left {
         width: 100%;
         text-align: center;
-        padding: 1rem!important;
     }
     .footer .mail{
         font-size: 15px;
@@ -212,6 +210,7 @@
     }
     .footer{
         @include flex (none,space-between,flex-start);
+        flex-wrap: nowrap;
         .footer-center{
             width: 40%!important;
         }
