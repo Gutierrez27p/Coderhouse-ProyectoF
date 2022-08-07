@@ -72,6 +72,33 @@ div .btn{
     color:$color-white!important;
     font-size: 20px;
 }
+.titulo,
+.subtituloQs,
+.tituloTexto,
+.tituloQh,
+.interesQh,
+.backgroundFieldset,
+.backgroundFieldset h3,
+.checkboxform{
+    margin: 2rem;
+}
+.checkboxform #checkbf1,
+#checkbf2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.card-title{
+    margin: 1rem;
+}
+.disenosLogotipos div .btn{
+    margin: 1rem;
+}
+#feedback h5{
+    padding-top: 2rem!important;
+}
 /* articulo2 */
 .card-title, .card-text{
     text-align: $center;

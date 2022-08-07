@@ -1,0 +1,840 @@
+@media screen and (min-width: 360px) and (max-width: 500px) {
+    header {
+        text-align: center;
+    }
+    header div .navbar-nav {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    header .d-flex {
+        padding: 1rem;
+    }
+    header .barraIcons {
+        display: none;
+    }
+    #distanciah1 {
+        font-size: 25px;
+    }
+    .conteiner-recreacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .carousel-item img {
+        width: 85%;
+    }
+    .carousel-inner {
+        margin-bottom: 2rem;
+    }
+    .boton-galeria a {
+        padding: 30px;
+    }
+    .boton {
+        width: 60%;
+    }
+    section .md-form {
+        padding: 1rem;
+        height: 60px;
+        margin-bottom: 2rem;
+    }
+    .form-control {
+        height: 50px;
+    }
+    .imgQh {
+        margin: 2rem;
+    }
+    .imgQh img.simba {
+        width: 300px;
+    }
+    .imgQh img.pinguin {
+        width: 130px;
+    }
+    section div #enviarboton {
+        margin: 2rem;
+        width: 30%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer .icons {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .footer .about {
+        padding-bottom: 2rem;
+    }
+    .footer span,
+    .footer p {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .footer .menu {
+        font-size: 20px;
+        margin: 20px 0 70px;
+    }
+    .footer .name {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+    header div .navbar-nav {
+        font-size: 25px;
+        font-weight: bold
+    }
+    header .d-flex {
+        padding: 1rem;
+    }
+    header .barraIcons {
+        display: none;
+    }
+    .conteiner-recreacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .carousel-item img {
+        width: 65%;
+    }
+    .carousel-inner {
+        margin-bottom: 2rem;
+    }
+    .boton-galeria a {
+        padding: 30px;
+    }
+    .boton {
+        width: 60%;
+    }
+    section .md-form {
+        padding: 1rem;
+        height: 60px;
+        margin-bottom: 2rem;
+    }
+    .form-control {
+        height: 50px;
+    }
+    .imgQh {
+        margin: 1rem;
+    }
+    .imgQh img.simba {
+        width: 300px;
+    }
+    .imgQh img.pinguin {
+        width: 130px;
+    }
+    section div #enviarboton {
+        margin: 2rem;
+        width: 30%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer .icons {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .footer .about {
+        padding-bottom: 2rem;
+    }
+    .footer span,
+    .footer p {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .footer .menu {
+        font-size: 20px;
+        margin: 20px 0 70px;
+    }
+    .footer .name {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        text-align: center;
+    }
+    header div .navbar-nav {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    header .d-flex {
+        padding: 1rem;
+    }
+    header .barraIcons {
+        display: none;
+    }
+    .conteiner-recreacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: none;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel-inner {
+        margin-bottom: 2rem;
+    }
+    .carousel-item img {
+        width: 50%;
+    }
+    .boton-galeria a {
+        padding: 30px;
+    }
+    .boton-galeria {
+        padding: 0 19rem;
+    }
+    section .md-form {
+        padding: 1rem;
+        height: 60px;
+        margin-bottom: 2rem;
+    }
+    .form-control {
+        height: 50px;
+    }
+    .imgQh {
+        margin: 2rem;
+    }
+    section div #enviarboton {
+        margin: 2rem;
+        width: 10%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer .icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .footer .about {
+        padding-bottom: 2rem;
+    }
+    .footer span,
+    .footer p {
+        font-size: 18px;
+        padding: 2px;
+    }
+    .footer .menu {
+        font-size: 20px;
+        margin: 20px 0 70px;
+    }
+    .footer .name {
+        font-size: 14px;
+    }
+    .footer .footer-center {
+        width: 40%;
+        text-align: center;
+    }
+    .footer .footer-right,
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .footer .mail {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+    header {
+        text-align: center;
+    }
+    header div .navbar-nav {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .conteiner-recreacion {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel-inner {
+        margin-bottom: 2rem;
+    }
+    .carousel-item img {
+        width: 40%;
+    }
+    .boton-galeria {
+        padding: 0 26rem;
+    }
+    section .md-form {
+        padding: 1rem;
+        height: 60px;
+        margin-bottom: 2rem;
+    }
+    .form-control {
+        height: 50px;
+    }
+    .imgQh {
+        margin: 2rem;
+    }
+    section div #enviarboton {
+        margin: 2rem;
+        width: 20%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: none;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-wrap: nowrap;
+    }
+    .footer .footer-center {
+        width: 40%;
+    }
+    .footer .footer-right {
+        text-align: center;
+    }
+    .footer .footer.name {
+        font-size: 14px;
+    }
+    .footer .menu {
+        margin-bottom: 5rem;
+    }
+    .footer p {
+        font-size: 20px;
+    }
+    .footer .about {
+        font-size: 20px;
+    }
+    .footer .about span {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 1051px) and (max-width: 2200px) {
+    header {
+        text-align: center;
+    }
+    header div .navbar-nav {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .conteiner-recreacion {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel-inner {
+        margin-bottom: 2rem;
+    }
+    .carousel-item img {
+        width: 28%;
+    }
+    .boton-galeria {
+        padding: 0 28rem;
+    }
+    section .md-form {
+        padding: 1rem;
+        height: 60px;
+        margin-bottom: 2rem;
+    }
+    .form-control {
+        height: 50px;
+    }
+    .imgQh {
+        margin: 2rem;
+    }
+    section div #enviarboton {
+        margin: 2rem;
+        width: 10%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: none;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .footer .footer-center {
+        width: 40%;
+    }
+    .footer .footer-right {
+        text-align: center;
+    }
+    .footer .footer.name {
+        font-size: 10px;
+    }
+    .footer .menu {
+        margin-bottom: 8rem;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+    .footer .about {
+        font-size: 15px;
+    }
+    .footer .about span {
+        font-size: 20px;
+    }
+}
+.navbar-expand-lg {
+    background-color: rgba(0, 153, 65, 0.741176);
+}
+.nav-item {
+    padding: 0;
+    padding-left: 1rem;
+}
+.bg-light {
+    background-color: rgba(125, 224, 166, 0.980392);
+}
+.ms-auto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: none;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 1rem 0 1rem;
+}
+.navbar-nav {
+    font-size: large;
+    align-items: center;
+}
+#navbarSupportedContent {
+    padding-right: 2vh;
+}
+.d-flex {
+    padding-right: 3vh;
+}
+div .navbar-nav {
+    padding: 10px;
+}
+nav div .navbar-nav #iconos-redes {
+    margin: 1rem;
+    font-size: 25px;
+    color: #000;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'jost', sans-serif;
+}
+body {
+    margin: 0;
+    background-image: url(../img/fondo-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .subtituloQs,
+.textoDisenos {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#navbarSupportedContent {
+    padding: 0;
+}
+.d-flex {
+    padding: 3vh;
+}
+section h3 {
+    font-size: 30px;
+    color: #41963a;
+}
+.textoSuperior {
+    padding: 3rem;
+}
+.imagenQs,
+.textoInferior {
+    padding: 1rem;
+}
+.imgQh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.imgQh img {
+    margin: 1rem;
+    border: 10px;
+    border-radius: 5rem
+}
+.imgQh p {
+    font-size: 20px;
+    color: #e0b159;
+}
+.checkboxform {
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: none;
+    flex-wrap: wrap;
+}
+#distanciah1 {
+    padding: 3rem;
+}
+div .media-body {
+    padding: 1rem;
+}
+.media {
+    padding: 1rem;
+}
+fieldset .mb-12 {
+    margin: 5rem;
+}
+section .md-form {
+    padding: 1rem;
+}
+div .btn {
+    color: #fff;
+    font-size: 20px;
+}
+.card-title,
+.card-text {
+    text-align: center;
+}
+.img-center {
+    text-align: center;
+    padding: 0.5rem;
+}
+.card .back p {
+    padding: 0 0.5rem;
+}
+.btn-sl {
+    padding: 1rem;
+}
+.card-text {
+    padding-top: 2rem;
+}
+#tipo-letra {
+    font-size: larger;
+    font-family: 'jost';
+}
+.conteiner-recreacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-top: 2rem;
+}
+.disenosLogotipos,
+.disenosPp {
+    display: flex;
+    flex-direction: none;
+    justify-content: none;
+    align-items: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.divwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+#poster-portada,
+#persona,
+#banners,
+#subrealismo,
+#wallpapers {
+    justify-content: space-evenly;
+}
+#galeria {
+    width: 100%;
+    padding-top: 2rem;
+}
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    border: 0;
+    background: none;
+}
+.divwrap div .card {
+    position: relative;
+    height: 380px;
+    margin: 20px;
+}
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.380392);
+    text-align: center;
+}
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgba(10, 160, 68, 0.772549);
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: none;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+.card .back .link {
+    border-top: solid 0 #fff;
+    height: 50px;
+    line-height: 50px;
+}
+.card .back .link a {
+    color: #fff;
+}
+.card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.card .back p {
+    letter-spacing: 1px;
+}
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+.carousel-item img {
+    padding-top: 2rem;
+    justify-items: center;
+}
+.boton-galeria {
+    text-align: center;
+}
+
+.contenedor-boton {
+    width: 100%;
+}
+.boton {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: #6f7a79;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .5s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.boton span {
+    position: relative;
+    z-index: 2;
+    transition: .5s ease all;
+}
+.boton.galeria::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #33e250;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .5s ease-in-out all;
+}
+.boton.galeria:hover::after {
+    top: 0;
+}
+.footer .icons {
+    padding-top: 2rem;
+}
+.footer-center {
+    text-align: center;
+}
+.footer {
+    background-color: rgba(0, 153, 65, 0.741176);
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 50px;
+}
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+.footer .footer-left {
+    width: 33%;
+    padding-right: 15px;
+}
+.footer .about {
+    line-height: 20px;
+    color: #264734;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer .about span {
+    display: block;
+    color: #264734;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer .icons a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #02e272;
+    text-align: center;
+    line-height: 15px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.footer .footer-center {
+    width: 30%;
+}
+.footer .footer-center i {
+    color: #02e272;
+    font-size: 25px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 22px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+.footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 18px;
+}
+.footer .footer-center p {
+    display: inline-block;
+    color: #264734;
+    vertical-align: middle;
+    margin: 0;
+}
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 2;
+}
+.footer .footer-center p a {
+    color: #000;
+    text-decoration: none;
+}
+.footer .footer-right {
+    width: 35%;
+    text-align: center;
+}
+.footer h2 {
+    color: #264734;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer .menu {
+    color: #264734;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+.footer .menu a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+.footer .menu a:hover {
+    color: #a8fac3;
+}
+.footer .name {
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+div .icons a {
+    margin: 0;
+    width: 80px;
+    font-size: 30px;
+}
+@media (max-width: 767px) {
+    .footer {
+        font-size: 14px;
+    }
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+}
