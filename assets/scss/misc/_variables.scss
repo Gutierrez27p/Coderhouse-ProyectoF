@@ -25,3 +25,18 @@ $small:1rem;
 
 /*Centrado*/
 $center: center;
+
+/*Map redes*/
+
+$map-color:(
+    "az":#1877f2, "ro":#e60073, "ver":#25d366
+);
+.icon:hover{
+    color:map-get($map-color,az);
+}
+.icon:hover:nth-child(2){
+    color:map-get($map-color,ro);
+}
+.icon:hover:nth-child(3){
+    color:map-get($map-color,ver);
+}

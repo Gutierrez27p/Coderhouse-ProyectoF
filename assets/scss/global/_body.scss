@@ -29,7 +29,7 @@ section h3{
     color: $color-h3;
 }
 .textoSuperior{
-    padding: $medium!important;
+    padding: $small!important;
 }
 .imagenQs,
 .textoInferior{
@@ -52,7 +52,7 @@ section h3{
     font-size: 23px;
     @include flex (row, center, none);
 }
-/*Articulo1 index*/
+/*Articulo1*/
 #distanciah1{
     padding: $medium!important;
 }
@@ -96,8 +96,20 @@ div .btn{
 .disenosLogotipos div .btn{
     margin: 1rem;
 }
+.mb-12 p.text-center.w-responsive.mx-auto.mb-5{
+    font-size: 25px;
+}
 #feedback h5{
     padding-top: 2rem!important;
+    margin: 2rem;
+}
+.form-check-label{
+    font-size: 20px;
+    padding-bottom: 2rem!important;
+}
+.row div .text-center.text-md-left{
+    padding-bottom: 3rem!important;
+    align-items: center;
 }
 /* articulo2 */
 .card-title, .card-text{
@@ -144,6 +156,9 @@ div .btn{
 #galeria{
     width: 100%;
     padding-top: 2rem!important;
+}
+.textoDisenos{
+    font-size: 25px;
 }
 /*Cards-flip*/
 .card {
@@ -266,11 +281,4 @@ div .btn{
 }
 .boton.galeria:hover::after{
     top:0;
-}
-/*Footer*/
-.footer .icons{
-    padding-top: 2rem!important;
-}
-.footer-center{
-    text-align: center;
 }
