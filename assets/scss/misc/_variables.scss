@@ -29,7 +29,9 @@ $center: center;
 /*Map redes*/
 
 $map-color:(
-    "az":#1877f2, "ro":#e60073, "ver":#25d366
+    "az":#1877f2,
+    "ro":#e60073,
+    "ver":#25d366
 );
 .icon:hover{
     color:map-get($map-color,az);
