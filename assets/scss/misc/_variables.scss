@@ -34,11 +34,11 @@ $map-color:(
     "ver":#25d366
 );
 .icon:hover{
-    color:map-get($map-color,az);
+    color:map-get($map-color,"az");
 }
 .icon:hover:nth-child(2){
-    color:map-get($map-color,ro);
+    color:map-get($map-color,"ro");
 }
 .icon:hover:nth-child(3){
-    color:map-get($map-color,ver);
+    color:map-get($map-color,"ver");
 }
